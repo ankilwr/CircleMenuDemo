@@ -55,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
                 case 7:
                     break;
             }
-            Toast.makeText(MainActivity.this,mCircleMenuLayout.getMenuItem(flag).getText(), Toast.LENGTH_SHORT);
+            Toast.makeText(MainActivity.this,mCircleMenuLayout.getMenuItem(flag).getText(), Toast.LENGTH_SHORT).show();
         }
 
         @Override
         public void itemCenterClick(View view){
-            Toast.makeText(MainActivity.this, "center", Toast.LENGTH_SHORT);
+            Toast.makeText(MainActivity.this, "center", Toast.LENGTH_SHORT).show();
         }
     };
 
