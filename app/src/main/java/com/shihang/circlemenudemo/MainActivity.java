@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+import com.shihang.circlemenudemo.CircleMenuLayout.OnMenuItemClickListener;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private CircleMenuLayout.OnMenuItemClickListener menuClickListener = new CircleMenuLayout.OnMenuItemClickListener(){
+    private OnMenuItemClickListener menuClickListener = new OnMenuItemClickListener(){
 
         @Override
         public void itemClick(View view, int flag){
